@@ -11,3 +11,7 @@ Usually (for sure Apple devices) use a sequence number for naming files.
 This can be used to detect potentially missing files.
 
 The script will identify all gaps in the sequence numbers and can be used as a sanity check.
+
+```
+./run.py
+```
