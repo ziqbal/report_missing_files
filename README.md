@@ -18,3 +18,18 @@ Run the script in the directory you are interested in:
 ```
 /YOUR_PATH_TO_THIS_REPO/run.py
 ```
+
+The ```FN_PREFIX``` and ```FN_PAD``` can be configured:
+
+
+```
+/YOUR_PATH_TO_THIS_REPO/run.py FN_PREFIX FN_PAD
+```
+
+For example:
+
+```
+/YOUR_PATH_TO_THIS_REPO/run.py IMG_ 4
+```
+
+This scans for files beginning with ```IMG_``` and which pad the squence to 4 characters ```0000``` to ```9999```.
