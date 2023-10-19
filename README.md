@@ -12,6 +12,9 @@ This can be used to detect potentially missing files.
 
 The script will identify all gaps in the sequence numbers and can be used as a sanity check.
 
+Run the script in the directory you are interested in:
+
+
 ```
-./run.py
+/YOUR_PATH_TO_THIS_REPO/run.py
 ```
