@@ -1,4 +1,7 @@
 
 
-"IMG_ENNNN.JPG"
+What happens with repeated sequences e.g. "IMG_ENNNN.JPG" when original file gets edited on device?\
+
+Recursive directory scan?
+
 
