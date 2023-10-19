@@ -75,7 +75,7 @@ for n in range( seq_min , seq_max + 1 ) :
 
         str_from = f"{n-gap_count}".zfill( FN_NPAD )
         str_to = f"{n-1}".zfill( FN_NPAD )
-        print( f"#### {str_from} -> {str_to} ( {gap_count} )" )
+        print( f"MISSING #### {str_from} -> {str_to} ( {gap_count} )" )
         gap_count = 0
         continue
 
@@ -88,5 +88,5 @@ for n in range( seq_min , seq_max + 1 ) :
 if state_ingap and gap_count > 0 :
     str_from = f"{n-gap_count+1}".zfill( FN_NPAD )
     str_to = f"{n}".zfill( FN_NPAD )
-    print( f"#### {str_from} -> {str_to} ( {gap_count} )" )
+    print( f"MISSING #### {str_from} -> {str_to} ( {gap_count} )" )
 
